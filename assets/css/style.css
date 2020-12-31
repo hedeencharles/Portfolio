@@ -391,7 +391,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# kills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -422,7 +422,14 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: rgb(248, 95, 68);
+}
+
+.skills .progress-bar2 {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: rgb(81, 204, 245);
 }
 
 /*--------------------------------------------------------------

@@ -129,6 +129,15 @@
     offset: '80%'
   });
 
+    // Skills section2
+    $('.skills-content').waypoint(function() {
+      $('.progress .progress-bar2').each(function() {
+        $(this).css("width", $(this).attr("aria-valuenow") + '%');
+      });
+    }, {
+      offset: '80%'
+    });
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
@@ -154,9 +163,9 @@
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     dots: true,
-    loop: true,
+    loop: false,
     responsive: {
       0: {
         items: 1
